@@ -1,6 +1,7 @@
 import { Inter } from "next/font/google";
 import Link from "next/link";
 import "./globals.css";
+import Tabs from "./_components/Tabs";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -17,12 +18,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <nav>
-          <Link href="/parallel">Parallel Routes</Link>
-          <Link href="/dynamic">Dynamic Routes</Link>
-          <Link href="/intercepting">Intercepting Routes</Link>
-        </nav>
-        {children}
+        <div className="container mx-auto py-10">
+          <Tabs />
+          <main className="pt-6">{children}</main>
+        </div>
       </body>
     </html>
   );
