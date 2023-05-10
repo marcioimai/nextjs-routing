@@ -1,4 +1,4 @@
-# Next.js with i18n
+# Next.js routing tests
 
 Demo Next.js project for testing routing features.
 
