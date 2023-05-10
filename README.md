@@ -2,7 +2,7 @@
 
 Demo Next.js project for testing routing features.
 
-[nextjs-i18n-cyan.vercel.app](http://nextjs-i18n-cyan.vercel.app)
+[http://nextjs-routing-gray.vercel.app](http://nextjs-routing-gray.vercel.app)
 
 ## Stack
 
